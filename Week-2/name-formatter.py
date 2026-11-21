@@ -1,0 +1,6 @@
+print("Welcome to the name formatter. This program will make sure your name is properly formatted with capitalizations.")
+first_name = input('Input your first name: ')
+middle_name = input('Input your middle name: ')
+last_name = input('Input your last name: ')
+full_name = first_name.title() + ' ' + middle_name.title() + ' ' + last_name.title()
+print(f'Your formatted full name is {full_name}.')
